@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# ignore 
+file1f678b2d03e6ad.xlsx
+file1f678b34d7c57.xlsx
+file1f678b179d2b33.xlsx
+file1f678b281d5cbe.xlsx
