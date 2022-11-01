@@ -1,7 +1,7 @@
 ---
 title: "Generalized Additive Models"
 author: "Gavin Simpson"
-date: "BES Palaeo SIG Workshop • May 25-28 2021"
+date: "BES Palaeo SIG Workshop • November 1-4 2022"
 output:
   xaringan::moon_reader:
     css: ["default", "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", "slides.css"]
@@ -13,11 +13,6 @@ output:
       countIncrementalSlides: false
       beforeInit: "macros.js"
       ratio: "16:9"
-      slideNumberFormat: |
-        <div class="progress-bar-container">
-          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
-          </div>
-        </div>
 ---
 
 ```{r setup, include=FALSE}
