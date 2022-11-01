@@ -1,6 +1,10 @@
 # BES Palaeo R Workshop GAMs
 
-## Installation instructions
+### Slides
+
+* [HTML slidedeck](https://gavinsimpson.github.io/bes-paleo-r-workshop/slides.html)
+
+## Installation instructions for the R part
 
 It is essential that you are running a recent version of R. {gratia} needs at least R 4.1.0. The version of {gratia} on CRAN works in earlier versions of R, but the changes in the about-to-be-released version of {gratia} need 4.1.0 or later.
 
