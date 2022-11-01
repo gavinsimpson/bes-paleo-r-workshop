@@ -260,7 +260,7 @@ draw(dydt)
 # Gulf of Taranto in the Ionian Sea (Taricco et al., 2016)
 #
 # for more info see https://fromthebottomoftheheap.net/2016/12/16/pangaea-r-open-palaeo-data/
-foram <- read_rds("data/taranto-foram-18-o.rds")
+foram <- read_rds("https://bit.ly/3gRrbhy")
 foram
 
 ylabel <- expression(delta^{18} * O ~ "[‰ VPDB]")
@@ -332,13 +332,15 @@ AIC(m, m_t)
 # Woodbridge et al
 
 # Load data
-# download file http://bit.ly/palaesig-227 save in working directory
+# download file Woodbridge XLS file save in working directory
 tf <- tempfile(fileext = ".xlsx", tmpdir = "./")
 tf
 download.file("https://bit.ly/3fohMO6", destfile = tf)
 
+# load Steve's functions
 source(url("https://bit.ly/3DRk0z1"))
 
+# import
 allpoll_list <- rio::import_list(tf)
 
 allpoll_nested <- tibble(Site = names(allpoll_list), polldata = allpoll_list)
